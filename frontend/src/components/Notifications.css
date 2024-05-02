@@ -1,0 +1,7 @@
+.notification {
+    transition: opacity 0.5s ease-out; /* Плавна зміна прозорості протягом 0.5 секунд */
+}
+
+.notification.hidden {
+    opacity: 0; /* Зменшення прозорості до 0, щоб приховати елемент */
+}
